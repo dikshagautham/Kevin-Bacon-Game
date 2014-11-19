@@ -2,8 +2,11 @@ Kevin-Bacon-Game
 ================
 Uses breadth-first-seach to play the "Kevin Bacon game" to find the distance between two actors, measured in the number of movies they are in together.
 Overview:
-\n 1) Reads input files to create maps of (1) actor IDs to actor names, (2) movie IDs to movie names, and (3) movie IDs to their \n actor sets 
+
+1) Reads input files to create maps of (1) actor IDs to actor names, (2) movie IDs to movie names, and (3) movie IDs to their \n actor sets 
+
 2) Uses these maps to creates an undirected graph (a "Bacon Graph") in which vertices are actor names and edges between actors are the movies they share
+
 3) Runs a breadth-first search on our actor-movie graph to find each actors closest distance to Kevin Bacon (or whichever actor we set as our center) 
 
 More info from the lab description:
